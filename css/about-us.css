@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+:root{
+    --main-font: "Antic", sans-serif;
+    --bold-font: "Cherry Bomb One", system-ui;
+    --main-color: rgb(77,8,37);
+}
+
+#about-us-one{
+    display: flex;
+}
+#about-us-one-left{
+    width:50%;
+    height: 85vh;
+    background-image: url(../images/combined-fruit-image.jfif);
+    background-size: cover;
+}
+#about-us-one-left > div{
+    background-color: rgb(10, 10, 10);
+    height: 100%;
+}
+#about-us-one-right{
+    width:50%;
+    height: 85vh;
+    background-color: rgb(200, 200, 200);
+}

@@ -68,7 +68,10 @@ body{
 /*************************************MAIN BANNER ******************************************************/
 #main-banner{
     height: 100vh;
-    background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8))
+    background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8));
+    background-image: url(../images/fruit-splash.png);
+    background-repeat: no-repeat;
+    background-position: -50% -70%;
 }
 #main-banner > div{
     width: 80%;
@@ -76,7 +79,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline-start: 3.3rem;
+   
 }
 #main-banner p{
     font-family: var(--main-font);
@@ -432,7 +435,7 @@ body{
     margin: auto;
     border-radius: 0px 0px 50px 50px;
     background-image: linear-gradient(to right, #fff, rgb(200,200,200));
-    padding-inline: 3rem;
+    padding-inline: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -452,6 +455,13 @@ body{
     font-size: 1.2rem;
     margin-top: 2rem;
 }
+#footer-div-right{
+    width: 70%;
+}
+#footer-socials{
+    display: flex;
+    justify-content: end;
+}
 #footer-socials i {
     background-color: #000;
     padding: 15px;
@@ -459,6 +469,7 @@ body{
     border-radius: 50%;
     font-size: 2rem;
     color: rgb(240,240,240);
+    margin-inline: .25rem;
 }
 #footer .fa-facebook-f{
     padding-inline: 20px;
@@ -467,9 +478,23 @@ body{
     border: none;
     border-bottom: 4px solid rgb(77,8,37);
     padding: 7px;
-    width: 50%;
+    width: 80%;
+    background: none;
+    font-size: 1.2rem;
 }
 #footer form{
-    margin-top: 6rem;
+    margin-top: 4rem;
+}
+#footer form button{
+    background-color: rgb(77,8,37);
+    color: #fff;
+    font-family: var(--main-font);
+    padding: 17px 45px;
+    display: inline-block;
+    margin-block-start: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 8.5px 10px rgba(77,8,37, .5);
+    border: none;
+    cursor: pointer;
 }
 /************************************** END OF FOOTER  **************************************/

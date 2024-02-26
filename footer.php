@@ -1,11 +1,11 @@
        <section id="footer">
             <div id="footer-div">
-                <div>
+                <div id="footer-div-left">
                     <p id="footer-stay">STAY</p>
                     <p id="footer-connected">CONNECTED</p>
                     <p id="footer-subscribe">Subscribe to our newsletter</p>
                 </div>
-                <div>
+                <div id="footer-div-right">
                     <div id="footer-socials">
                         <a href="http://"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="http://"><i class="fa-brands fa-instagram"></i></a>
