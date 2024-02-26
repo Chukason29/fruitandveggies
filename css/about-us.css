@@ -44,9 +44,10 @@
     font-size: 3rem;
     margin-block-end: 2rem;
 }
-#about-us-one-right p{
+#about-us-one-right p, #about-us-two-left p{
     color: rgb(80, 80, 80);
     font-size: 1.28rem;
+    line-height: 30px;
 }
 
 #about-us-two-right{
@@ -70,4 +71,17 @@
     margin-block-start: 25px;
     border-radius: 8px;
     box-shadow: 5px 8.5px 10px rgba(77,8,37, .5);
+}
+#about-us-two-left{
+    padding-inline: 7.5rem;
+    display: flex;
+    align-items: center;
+}
+#about-us-two-left h2{
+    color: rgb(254,147,22);
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+}
+#about-us-two-left > div > div{
+    margin-bottom: 3rem;
 }

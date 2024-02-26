@@ -44,22 +44,25 @@
     <section id="about-us-two">
         <div id="about-us-two-left">
             <div>
-                <h2>Mission</h2>
-                <p>
-                    Started since year 2019, with the aim to bring the best fruits
-                    and vegetables from all over the world. with over a thosuand
-                    species of fruits, vegetables, spices and even nuts. Fruits and
-                    veggies have made it a goal to bring these fruits to Nigeria.
-                </p>
-            </div>
-            <div>
-            <h2>Vision</h2>
-                <p>
-                    Started since year 2019, with the aim to bring the best fruits
-                    and vegetables from all over the world. with over a thosuand
-                    species of fruits, vegetables, spices and even nuts. Fruits and
-                    veggies have made it a goal to bring these fruits to Nigeria.
-                </p>
+                <div>
+                    <h2>Mission</h2>
+                    <p>
+                        Started since year 2019, with the aim to bring the best fruits
+                        and vegetables from all over the world. with over a thosuand
+                        species of fruits, vegetables, spices and even nuts. Fruits and
+                        veggies have made it a goal to bring these fruits to Nigeria.
+                    </p>
+                </div>
+                <div>
+                    <h2>Vision</h2>
+                    <p>
+                        Started since year 2019, with the aim to bring the best fruits
+                        and vegetables from all over the world. with over a thosuand
+                        species of fruits, vegetables, spices and even nuts. Fruits and
+                        veggies have made it a goal to bring these fruits to Nigeria.
+                    </p>
+                </div>
+                <a href="http://">SHOP NOW</a>
             </div>
         </div>
         <div id="about-us-two-right">
