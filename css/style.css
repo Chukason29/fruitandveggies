@@ -8,7 +8,6 @@
     --main-font: "Antic", sans-serif;
     --bold-font: "Cherry Bomb One", system-ui;
     --main-color: rgb(77,8,37);
-
 }
 body{
     background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8));
@@ -19,7 +18,9 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-
+.hide{
+    display: none;
+}
   /******************************** MENU BAR  ***************************************/
 #navbar{
     width: 100%;
@@ -166,12 +167,183 @@ body{
 }
 /************************************* END OF  WHY FRUIT AND VEGGIES *********************************/
 
+
 /************************************* START OF FRUIT HANDS *********************************/
 #fruit-hands{
     height: 100vh;
     background-image: url(../images/fruit-hands.png);
     background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+#fruit-hands > div{
+    width: 50%;
+}
+#fruit-hands-left{
+    padding-inline: 10rem;
+}
+.best-fruit{
+    color: rgb(254,147,22);
+    margin-block-end: 1.3rem;
+    font-size: 1rem;
+}
+.our-store{
+    font-size: 4.75rem;
+    font-weight: bold;
+    font-family: var(--bold-font);
+    margin-block-end: .6rem;
+}
+.who-we-are{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: var(--main-font);
+    margin-block-end: 1rem;
+}
+#home-aboutus-header{
+    display: flex;
+}
+#home-aboutus-header p{
+    border-bottom: 5px solid #000000;
+    padding: 14px 20px;
+}
+.home-aboutus-body{
+    max-width: 80%;
+    margin-top: 12px;
+}
+#fruit-hands-right a{
+    display: block;
+    background-color: rgb(77,8,37);
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: var(--main-font);
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px rgba(180,180,180, 1);
+}
 /************************************* END OF FRUIT HANDS *********************************/
+
+/************************************* FEATURED FRUITS  ***********************************/
+#featured-fruit{
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../images/featured-image.jpg);
+}
+#featured-fruit > div{
+    width: 100%;
+    text-align: center;
+    padding-block: 3rem;
+    background-color: rgba(250,250,250, .7);
+}
+#featured-fruit > div > h1{
+    font-family: var(--bold-font);
+    font-size: 3.5rem;
+}
+#featured-fruit > div > p{
+    font-size: 1.3rem;
+    font-family: var(--main-font);
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+#featured-fruit > div > a{
+    background-color: rgb(77,8,37);
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.4rem;
+    padding: 20px 65px;
+    display: inline-block;
+    margin-block-start: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 8.5px 10px rgba(77,8,37, .5);
+}
+#featured-fruit > div > a:hover{
+    background-color: rgba(77,8,37,.8);
+}
+.fruit-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: -1rem;
+}
+.second-fruit-list{
+    position: relative;
+    top: -20px;
+}
+#fruit-item{
+    width: 33.3%;
+    max-height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+#fruit-item img{
+    filter: brightness(.6);
+}
+#fruit-item img:hover{
+    transform: scale(2);
+    transition: transform .3s;
+}
+#fruit-item  p{
+    position: absolute;
+    bottom: 50%;
+    left: 33%;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: var(--main-font);
+}
+/************************************* END OF FEATURED FRUITS  ***********************************/
+
+/**************************************START OF FRUIT CHANGE *************************************/
+#fruit-change{
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff, rgb(200,200,200));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fruit-change > div{
+    width: 50%;
+}
+#fruit-change-left{
+    padding-inline: 10rem;
+}
+#main-fruit-box{
+    height: 55vh;
+    width: 62%;
+    margin: auto;
+    border-radius: 50% 50% 0% 0%;
+    border: 10px solid rgb(77,8,37);
+    overflow: hidden;
+}
+#main-fruit-box img{
+    width: 100%;
+    max-height: 100%;
+}
+#sub-fruit-boxes{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.sub-fruit-boxes-item{
+    width: 18.4%;
+    height: 23vh;
+    border: 2px solid #000;
+    border-radius: 0% 0% 50% 50%;
+    overflow: hidden;
+}
+.sub-fruit-boxes-item img{
+    width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+.bordered{
+    border: 8px solid rgb(77,8,37);
+}
+/**************************************END OF FRUIT CHANGE *************************************/

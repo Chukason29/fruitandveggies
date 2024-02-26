@@ -1,0 +1,30 @@
+"use strict"
+//Changing fruits code
+const subFruitBox = document.querySelectorAll(".sub-fruit-boxes-item");
+const subFruitBoxArray = Array.from(subFruitBox);
+const singleBroccoli = document.getElementById("single-broccoli");
+const singleStrawberry = document.getElementById("single-strawberry");
+const singleCashew = document.getElementById("single-cashew");
+const mainFruit = document.querySelector("#main-fruit-box > img");
+
+const removeBorder = () => {
+    subFruitBoxArray.forEach(item => {
+        item.classList.remove("bordered");
+    })
+}
+
+singleBroccoli.addEventListener("click", () => {
+    removeBorder();
+    singleBroccoli.classList.add("bordered");
+    mainFruit.src = "images/single-broccoli.png"
+})
+singleStrawberry.addEventListener("click", () => {
+    removeBorder();
+    singleStrawberry.classList.add("bordered");
+    mainFruit.src = "images/strawberries.jpg"
+})
+singleCashew.addEventListener("click", () => {
+    removeBorder();
+    singleCashew.classList.add("bordered");
+    mainFruit.src = "images/cashew.jpg"
+})
