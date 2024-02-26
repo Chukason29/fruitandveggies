@@ -18,7 +18,55 @@
 <body>
 <?php include "header.php" ?>
     <section id="about-us-one">
-        <div id="about-us-one-left"></div>
-        <div id="about-us-one-right"></div>
+        <div id="about-us-one-left">
+            <div>
+                <img src="./images/fruit-veggies-white-logo.png" alt="">
+            </div>
+            
+        </div>
+        <div id="about-us-one-right">
+            <div>
+            <h2>About Us</h2>
+            <p>
+                Started since year 2019, with the aim to bring the best fruits
+                and vegetables from all over the world. with over a thosuand
+                species of fruits, vegetables, spices and even nuts. Fruits and
+                veggies have made it a goal to bring these fruits to Nigeria.
+                Started since year 2019, with the aim to bring the best fruits
+                and vegetables from all over the world. with over a thosuand
+                species of fruits, vegetables, spices and even nuts. Fruits and
+                veggies have made it a goal to bring these fruits to Nigeria
+            </p>
+            <a href="http://">SHOP NOW</a>
+            </div>
+        </div>
+    </section>
+    <section id="about-us-two">
+        <div id="about-us-two-left">
+            <div>
+                <h2>Mission</h2>
+                <p>
+                    Started since year 2019, with the aim to bring the best fruits
+                    and vegetables from all over the world. with over a thosuand
+                    species of fruits, vegetables, spices and even nuts. Fruits and
+                    veggies have made it a goal to bring these fruits to Nigeria.
+                </p>
+            </div>
+            <div>
+            <h2>Vision</h2>
+                <p>
+                    Started since year 2019, with the aim to bring the best fruits
+                    and vegetables from all over the world. with over a thosuand
+                    species of fruits, vegetables, spices and even nuts. Fruits and
+                    veggies have made it a goal to bring these fruits to Nigeria.
+                </p>
+            </div>
+        </div>
+        <div id="about-us-two-right">
+            <div>
+                
+            </div>
+        </div>
+        
     </section>
 <?php include_once "footer.php" ?>
