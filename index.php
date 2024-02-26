@@ -185,6 +185,18 @@
         <div id="fruit-bag-image">
             <img src="images/fruit-bag.png" alt="">
         </div>
+        <div id="fruit-bag-right">
+            <p id="fruit-bag-first-writ"><strong> BEST FRUITS IN THE COUNTRY</strong></p>
+            <h2 id="fruit-bag-discount">DISCOUNT SALE</h2>
+            <h2>TODAY - 20%</h2>
+            <p id="fruit-bag-offers"><strong>LIST OF OUR CURRENT DISCOUNT OFFERS</strong></p>
+            <a href="http://">SHOP NOW</a>                
+        </div>
+    </section>
+    <section id="fruit-ice">
+        <div id="fruit-ice-logo">
+            <img src="./images/fruits-and-veggies-logo.png" alt="">
+        </div>
     </section>
 
 <?php

@@ -347,3 +347,60 @@ body{
     border: 8px solid rgb(77,8,37);
 }
 /**************************************END OF FRUIT CHANGE *************************************/
+
+/************************************** START OF FRUIT BAG ************************************/
+#fruit-bag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    height: 90vh;
+}
+#fruit-bag-first-writ{
+    font-family: var(--main-font);
+    color: rgb(254, 147, 22);
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+}
+#fruit-bag h2{
+    font-size: 5rem;
+    font-family: var(--bold-font);
+    line-height: 95px;
+}
+#fruit-bag-offers{
+    font-family: var(--main-font);
+    font-size: 1.3rem;
+}
+#fruit-bag-right a{
+    background-color: rgb(77,8,37);
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 30px 95px;
+    display: inline-block;
+    margin-block-start: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 8.5px 10px rgba(77,8,37);
+    cursor: pointer;
+}
+/************************************** END OF FRUIT BAG ************************************/
+
+/************************************** START OF FRUIT ICE ************************************/
+#fruit-ice{
+    background-image: url(../images/fruit-ice.png);
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+    align-items: center;
+    position: fixed;
+}
+#fruit-ice-logo{
+    width: 40%;
+}
+#empty-section{
+    height: 100vh
+}
+/************************************** END OF FRUIT ICE ************************************/
