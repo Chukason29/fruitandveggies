@@ -10,8 +10,8 @@
     --main-color: rgb(77,8,37);
 }
 body{
-    background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8));
-    background-repeat: no-repeat;
+    /*background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8));
+    background-repeat: no-repeat;*/
 }
 .cherry-bomb one-regular {
     
@@ -68,6 +68,7 @@ body{
 /*************************************MAIN BANNER ******************************************************/
 #main-banner{
     height: 100vh;
+    background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8))
 }
 #main-banner > div{
     width: 80%;
@@ -355,6 +356,7 @@ body{
     align-items: center;
     text-align: right;
     height: 90vh;
+    background-image: linear-gradient(to right, #fff, rgb(240,240,240));
 }
 #fruit-bag-first-writ{
     font-family: var(--main-font);
@@ -390,17 +392,29 @@ body{
 /************************************** START OF FRUIT ICE ************************************/
 #fruit-ice{
     background-image: url(../images/fruit-ice.png);
-    height: 100vh;
-    display: flex;
-    justify-content: end;
-    padding: 40px;
-    align-items: center;
-    position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #fruit-ice-logo{
-    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh
 }
-#empty-section{
-    height: 100vh
+#fruit-ice-logo > div{
+    width: 30%;
+    text-align: center;
+    padding-inline: 30px;
+}
+#fruit-ice-logo a{
+    text-decoration: none;
+    color: rgb(77,8,37);
+    background-color: #fff;
+    font-size: 2rem;
+    display: block;
+    padding: 1.5rem 3.5rem;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
 }
 /************************************** END OF FRUIT ICE ************************************/
