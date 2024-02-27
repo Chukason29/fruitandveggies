@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-font: "Antic", sans-serif;
+    --bold-font: "Cherry Bomb One", system-ui;
+    --main-color: rgb(77,8,37);
+}
+nav{
+    font-family: "Roboto", sans-serif;
+    border-right: 1px solid rgb(70, 70, 70);
+    background-color: rgba(23,54,23, .4);
+    width: 20%;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+}
+nav a:hover{
+    color: rgb(40, 40, 40);
+    background-color: #fff;
+}

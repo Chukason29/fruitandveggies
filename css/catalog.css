@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-font: "Antic", sans-serif;
+    --bold-font: "Cherry Bomb One", system-ui;
+    --main-color: rgb(77,8,37);
+}
+#add-product, #manage-product, #create-blog, #manage-blog{
+    display: flex;
+    gap: 3rem;
+}
