@@ -5,7 +5,7 @@
     <div id="add-product-form-container">
         <div>
             <?php
-                include(__DIR__.'/../db_connect.php');
+                include 'db_connect.php';
                 $sql = "SELECT * FROM Products";
                 $query = $db_conn -> query($sql);
                 $row = $query -> num_rows;

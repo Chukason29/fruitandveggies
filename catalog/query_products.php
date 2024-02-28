@@ -25,6 +25,7 @@
                 <td><?php echo $row['sub_category']?></td>
                 <td><?php echo $row['low_price']?></td>
                 <td><?php echo $row['high_price']?></td>
+                <td><?php echo $row['image_link']?></td>
                 <td>
                     <button><i class="fa-regular fa-pen-to-square"></i></button>
                     <button><i class="fa-regular fa-trash-can"></i></button>

@@ -38,8 +38,7 @@
                 <input type="number" min="0" name="low-price" id="low-price" placeholder="New Price">
             </div>
             <div class="input-div">
-                <label for="product-image">Select Product Image</label>
-                <input type="file" name="product-image" id="product-image">
+                <input type="text" name="image-link" id="image-link" placeholder="Enter Image Link">
             </div>
             <div class="input-div">
                 <input type="submit" value="submit" name="submit" id="add-submit">

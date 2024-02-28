@@ -6,5 +6,6 @@ CREATE TABLE `Products` (
     product_category VARCHAR(100) NOT NULL,
     high_price DECIMAL(10, 2) NOT NULL,
     low_price DECIMAL(10, 2) NOT NULL,
+    image_link VARCHAR(1000) NOT NULL,
     dateAdded DATETIME
 );

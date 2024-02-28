@@ -8,8 +8,8 @@ $(document).ready(function(){
         formData.append('sub_category', $('#sub-category option:selected').val());
         formData.append('high_price', $('input[name=high-price]').val());
         formData.append('low_price', $('input[name=low-price]').val());
-        formData.append('submit', $('input[name=submit]').val());
-        formData.append('product_image', $('input[type=file]')[0].files[0]);   
+        formData.append('image_link', $('input[name=image-link]').val());
+        formData.append('submit', $('input[name=submit]').val());  
         $.ajax({
             url: 'add-product.php',
             method: 'post',
