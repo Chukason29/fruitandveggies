@@ -10,7 +10,7 @@
 }
 #add-product, #manage-product, #create-blog, #manage-blog{
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
 }
 #result{
     width: 80%;

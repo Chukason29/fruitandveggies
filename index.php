@@ -191,8 +191,8 @@
                 <img src="./images/fruit-veggies-white-logo.png" alt="">
             </div>
         </section>
-        <section id="fruit-bag">
-            <div id="fruit-bag-image">
+        <section id="fruit-bag" >
+            <div id="fruit-bag-image" style="z-index: 1">
                 <img src="images/fruit-bag.png" alt="">
             </div>
             <div id="fruit-bag-right">

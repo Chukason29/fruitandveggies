@@ -14,4 +14,3 @@ $db_conn->connect($server, $db_user,$db_pwd,$db_name);
 if (!$db_conn) {
 	die("connection unsuccessful". $db_conn->connect_error());
 }
-

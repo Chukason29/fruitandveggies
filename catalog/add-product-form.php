@@ -18,10 +18,17 @@
             <div class="input-div">
                 <select name="sub-category" id="sub-category">
                     <option value="---Sub category---">---Sub category---</option>
-                    <option value="Citrus">Citrus</option>
+                    <option value="Citrus">Lettuce</option>
                     <option value="Stone Fruits">Stone Fruits</option>
+                    <option value="Tropical Fruits">Tropical Fruits</option>
                     <option value="Berries">Berries</option>
                     <option value="Nuts">Nuts</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Grapes">Grapes</option>
+                    <option value="Pepper">Pepper</option>
+                    <option value="Dates">Dates</option>
+                    <option value="Herbs">Herbs</option>
+                    <option value="Seeds">Seeds</option>
                 </select>
             </div>
             <div class="input-div">

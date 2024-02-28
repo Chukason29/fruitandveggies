@@ -1,5 +1,5 @@
        <section id="footer">
-            <div id="footer-div">
+            <div id="footer-div" style="z-index: 99">
                 <div id="footer-div-left">
                     <p id="footer-stay">STAY</p>
                     <p id="footer-connected">CONNECTED</p>

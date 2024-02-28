@@ -1,5 +1,5 @@
 <?php
-include(__DIR__.'/../db_connect.php');
+include 'db_connect.php';
 $targetDir =__DIR__ . "/../uploads/";
 $stuNum_year = str_split(date('Y'));
 $stuNum_year = $stuNum_year[2].$stuNum_year[3];
@@ -113,7 +113,7 @@ if (isset($_POST['submit'])) {
 					###### Remember to change the afmuc_students
 					$img = file_get_contents($_FILES['product_image']['tmp_name']);
 					
-					$insert_general_sql = "INSERT INTO Products(productID, productName, sub_category, product_category, high_price, low_price)
+					$insert_general_sql = "INSERT INTO `Products`(`productID`, `productName`, `sub_category`, `product_category`, `high_price`, `low_price`)
 											VALUES (?, ?, ?, ?, ?, ?)";
 					$insert_general_stmt = $db_conn->stmt_init();
 					if (!$insert_general_stmt->prepare($insert_general_sql)) {
