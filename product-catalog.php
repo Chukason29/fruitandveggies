@@ -21,7 +21,39 @@
     </section>
 <?php include "header.php" ?>
     <section id="product-display">
-        
+        <div id="lettuce" class="product-categories">
+
+        </div>
+        <div id="stone-fruits" class="product-categories">
+            
+        </div>
+        <div id="tropical-fruits" class="product-categories">
+            
+        </div>
+        <div id="berries" class="product-categories">
+            
+        </div>
+        <div id="melon" class="product-categories">
+            
+        </div>
+        <div id="nuts" class="product-categories">
+            
+        </div>
+        <div id="grapes" class="product-categories">
+            
+        </div>
+        <div id="pepper" class="product-categories">
+            
+        </div>
+        <div id="dates" class="product-categories">
+            
+        </div>
+        <div id="herbs" class="product-categories">
+            
+        </div>
+        <div id="seeds" class="product-categories">
+            
+        </div>
     </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

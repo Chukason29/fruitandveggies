@@ -18,7 +18,7 @@
             <div class="input-div">
                 <select name="sub-category" id="sub-category">
                     <option value="---Sub category---">---Sub category---</option>
-                    <option value="Citrus">Lettuce</option>
+                    <option value="Lettuce">Lettuce</option>
                     <option value="Stone Fruits">Stone Fruits</option>
                     <option value="Tropical Fruits">Tropical Fruits</option>
                     <option value="Berries">Berries</option>
