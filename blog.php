@@ -35,10 +35,111 @@
                 <p>05 Feburary, 2024 </p>
             </div>
             <div id="blog-body">
-                Fruits like mango, apples, grapes and lots
-                more have vry high capacity of giving you a
-                healthier hert....
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
+            </div>
+        </div>
+        <div id="blog-items">
+            <div id="blog-image">
+                <img src="images/fruit-market.png" alt="">
+            </div>
+            <div id="blog-header">
+                <p>Benefits of vegetable smothie </p>
+            </div>
+            <div id="blog-date">
+                <p>05 Feburary, 2024 </p>
+            </div>
+            <div id="blog-body">
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
+            </div>
+        </div>
+        <div id="blog-items">
+            <div id="blog-image">
+                <img src="images/juicyy-bottle.jpg" alt="">
+            </div>
+            <div id="blog-header">
+                <p>
+                    Does the current econmy affect
+                    the prices of Fruits and
+                    Vegetables?
+                </p>
+            </div>
+            <div id="blog-date">
+                <p>05 Feburary, 2024 </p>
+            </div>
+            <div id="blog-body">
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
+            </div>
+        </div>
+        <div id="blog-items">
+            <div id="blog-image">
+                <img src="images/juice-bottles.png" alt="">
+            </div>
+            <div id="blog-header">
+                <p>5 drinks you should try before age 30</p>
+            </div>
+            <div id="blog-date">
+                <p>05 Feburary, 2024 </p>
+            </div>
+            <div id="blog-body">
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
+            </div>
+        </div>
+        <div id="blog-items">
+            <div id="blog-image">
+                <img src="images/fruit-market.png" alt="">
+            </div>
+            <div id="blog-header">
+                <p>Benefits of vegetable smothie </p>
+            </div>
+            <div id="blog-date">
+                <p>05 Feburary, 2024 </p>
+            </div>
+            <div id="blog-body">
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
+            </div>
+        </div>
+        <div id="blog-items">
+            <div id="blog-image">
+                <img src="images/juicyy-bottle.jpg" alt="">
+            </div>
+            <div id="blog-header">
+                <p>
+                    Does the current econmy affect
+                    the prices of Fruits and
+                    Vegetables?
+                </p>
+            </div>
+            <div id="blog-date">
+                <p>05 Feburary, 2024 </p>
+            </div>
+            <div id="blog-body">
+                <p>
+                    Fruits like mango, apples, grapes and lots
+                    more have very high capacity of giving you a
+                    healthier hert....
+                </p>
             </div>
         </div>
     </section>
+    
 <?php include_once "footer.php" ?>

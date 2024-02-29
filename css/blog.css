@@ -34,6 +34,46 @@
     font-weight: 900;
     line-height: 11rem;
  }
+ #blog-news{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-block: 6.5rem;
+    background-image: linear-gradient(to right, #fff, );
+ }
+ #blog-image img{
+    border-radius: 25px;
+ }
+ #blog-image{
+    border-radius: 25px;
+    border: 1px solid rgb(80,80,80);
+ }
  #blog-header{
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.65rem;
+    margin-block: 20px;
+ }
+ #blog-items{
+    width: 28%;
+ }
+ #blog-date{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(180,180,180);
+    margin-bottom: 10px;
+ }
+ #blog-date{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(180,180,180);
+ }
+ #blog-body{
+    font-size: 1.05rem;
+    font-family: sans-serif;
+    color: rgb(180,180,180);
+ }
+ #blog-body p{
+    line-height: 30px;
  }
