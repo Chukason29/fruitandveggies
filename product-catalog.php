@@ -22,7 +22,7 @@
 <?php include "header.php" ?>
     <section id="product-display">
         <div id="lettuce" class="product-categories">
-
+            
         </div>
         <div id="stone-fruits" class="product-categories">
             

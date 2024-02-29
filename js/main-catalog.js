@@ -26,25 +26,33 @@ $(document).ready(function(){
     }).done(function(result){       
         $('#start-display').hide();
         const productArray = JSON.parse(result);
-        const displayProduct = (categoryElement, category) => {
-            categoryElement.innerHTML = `<h2>${category}</h2>`;
+        const displayProduct = (categoryElement, productCategory) => {
+            categoryElement.innerHTML = `<h2>${productCategory}</h2><br>`;
             productArray.filter(product => {
-                return product.category == category;
-            }).forEach(element => {
+                return product.category == productCategory;
+            }).forEach(({
+                id, productName,
+                category, subCategory, 
+                lowPrice, highPrice,
+                imageLink
+                }) => {
                 categoryElement.innerHTML +=
                 `
-                    <div class = "product-card">
+                   <div id="${id}" class = "product-card">
                         <div class = "product-image">
-                        <img src="" alt="">
+                            <img src="https://${imageLink}" alt="">
                         </div>
                         <div class = "product-name-category">
-                            
+                            <h2>${productName}</h2>
+                            <p>${subCategory} - ${category}</p>
                         </div>
                         <div class = "product-price">
-                            
+                            <del>${lowPrice}</del>
+                            <strong>${highPrice}</strong>
                         </div>
                         <div class = "product-shop-now">
-                            
+                            <span>1 Kg</span>
+                            <a href="http://">SHOP NOW</a>
                         </div>
                     </div>
                 `;

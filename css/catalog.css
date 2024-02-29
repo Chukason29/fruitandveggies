@@ -28,6 +28,23 @@
     justify-content: center;
     align-items: center;
 }
+.product-categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    background-image: linear-gradient(to right, rgba(180, 180, 180, .5), rgba(180, 180, 180, 1));
+}
+.product-card{
+    width: 20%;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+.product-image{
+    max-width: 100%;
+
+}
+
 /***************************************** END OF PRODUCT-CATALOG CSS ************************************************/
 /***************************************** START OF ADD PRODUCT CSS ************************************************/
 #add-product-form-container{
