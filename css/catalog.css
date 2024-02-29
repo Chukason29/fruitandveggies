@@ -17,7 +17,18 @@
     margin: auto;
     text-align: center;
 }
-
+/***************************************** START OF PRODUCT-CATALOG CSS ************************************************/
+#start-display{
+    height: 100vh;
+    background-color: rgba(40, 40, 40, .4);
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/***************************************** END OF PRODUCT-CATALOG CSS ************************************************/
 /***************************************** START OF ADD PRODUCT CSS ************************************************/
 #add-product-form-container{
     display: flex;

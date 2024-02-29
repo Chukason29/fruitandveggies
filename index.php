@@ -19,10 +19,10 @@
     <section id="main-banner">
         <div>
             <div id="main-banner-left">
-                <p id="first-writ"><strong>PROVIDING QUALITY PRODUCTS</strong></p>
-                <h2 id="header-writ">ORGANIC FRUITS</h2>
-                <h2>AND VEGETABLES</h2>
-                <p id="healthy"><strong>100% HEALTHY & AFFORDABLE</strong></p>
+                <p id="first-writ"><strong>DISCOVER THE BEST IN</strong></p>
+                <h2 id="header-writ">EXOTIC AND</h2>
+                <h2>FRESH PRODUCE</h2>
+                <p id="healthy"><strong>AT FRUITS AND VEGGIES HOME</strong></p>
                 <a href="http://">SHOP NOW</a>                
             </div>
             <div id="main-banner-right">

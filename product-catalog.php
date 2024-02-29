@@ -7,7 +7,7 @@
     <meta name="keywords" content="fruits Nigeria ecommerce shop online store ecommerce vegetables veggies store ">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/about-us.css">
+    <link rel="stylesheet" href="./css/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antic&family=Cherry+Bomb+One&display=swap" rel="stylesheet">
@@ -16,6 +16,15 @@
     <title>FRUITS & VEGGIES - CATALOG</title>
 </head>
 <body>
+    <section id="start-display">
+            <img src="./images/product-loader.gif" alt="">
+    </section>
 <?php include "header.php" ?>
-    
-<?php include_once "footer.php" ?>
+    <section id="product-display">
+        
+    </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+       <script src="./js/main-catalog.js"></script>
+</body>
+</html>

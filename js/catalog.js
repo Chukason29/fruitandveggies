@@ -24,7 +24,7 @@ $(document).ready(function(){
             $('#loader').hide();
             $('#result').html(result);
             $('#add-submit').removeAttr('disabled');
-    })
+        })
         event.stopImmediatePropagation();
         return false;
     })   

@@ -7,12 +7,12 @@
     while ($row = $query->fetch_assoc()) {
        $newArray = array(
         "id" => $row['productID'],
-        "name"=> $row['productName'],
+        "productName"=> $row['productName'],
         "category" => $row['product_category'],
         "subCategory" => $row['sub_category'],
-        "low-price" => $row['high_price'],
-        "high-price" => $row['low_price'],
-        "image-link" => $row['image_link']
+        "lowPrice" => $row['high_price'],
+        "highPrice" => $row['low_price'],
+        "imageLink" => $row['image_link']
        );
 
        array_push($productArray, $newArray);
