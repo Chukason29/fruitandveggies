@@ -1,15 +1,15 @@
-const productDisplay = document.getElementById("product-display");
-const lettuce = document.getElementById("lettuce");
-const stoneFruits= document.getElementById("stone-fruits");
-const berries = document.getElementById("berries");
-const melon = document.getElementById("melon");
-const nuts = document.getElementById("nuts");
-const grapes = document.getElementById("grapes");
-const pepper = document.getElementById("pepper");
-const dates = document.getElementById("dates");
-const herbs = document.getElementById("herbs");
-const seeds = document.getElementById("seeds");
-const tropicalFruit = document.getElementById("tropical-fruits");
+const productDisplay = document.querySelector("#product-display .product-categories");
+const lettuce = document.querySelector("#lettuce .product-categories");
+const stoneFruits= document.querySelector("#stone-fruits .product-categories");
+const berries = document.querySelector("#berries .product-categories");
+const melon = document.querySelector("#melon .product-categories");
+const nuts = document.querySelector("#nuts .product-categories");
+const grapes = document.querySelector("#grapes .product-categories");
+const pepper = document.querySelector("#pepper .product-categories");
+const dates = document.querySelector("#dates .product-categories");
+const herbs = document.querySelector("#herbs .product-categories");
+const seeds = document.querySelector("#seeds .product-categories");
+const tropicalFruit = document.querySelector("#tropical-fruits .product-categories");
 
 
 $(document).ready(function(){
@@ -27,7 +27,6 @@ $(document).ready(function(){
         $('#start-display').hide();
         const productArray = JSON.parse(result);
         const displayProduct = (categoryElement, productCategory) => {
-            categoryElement.innerHTML = `<h2>${productCategory}</h2><br>`;
             productArray.filter(product => {
                 return product.category == productCategory;
             }).forEach(({
@@ -36,6 +35,7 @@ $(document).ready(function(){
                 lowPrice, highPrice,
                 imageLink
                 }) => {
+                let myProductName = productName.charAt(0).toUpperCase() + productName.slice(1).toLowerCase();
                 categoryElement.innerHTML +=
                 `
                    <div id="${id}" class = "product-card">
@@ -43,12 +43,12 @@ $(document).ready(function(){
                             <img src="https://${imageLink}" alt="">
                         </div>
                         <div class = "product-name-category">
-                            <h2>${productName}</h2>
+                            <h2>${myProductName}</h2>
                             <p>${subCategory} - ${category}</p>
                         </div>
                         <div class = "product-price">
-                            <del>${lowPrice}</del>
-                            <strong>${highPrice}</strong>
+                            <del>&#x20A6;${lowPrice}</del>
+                            <strong>&#x20A6;${highPrice}</strong>
                         </div>
                         <div class = "product-shop-now">
                             <span>1 Kg</span>

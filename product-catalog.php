@@ -20,39 +20,72 @@
             <img src="./images/product-loader.gif" alt="">
     </section>
 <?php include "header.php" ?>
-    <section id="product-display">
-        <div id="lettuce" class="product-categories">
-            
+    <section id="product-display">      
+        <div id="lettuce">
+            <h1>LETTUCE</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="stone-fruits" class="product-categories">
-            
+        <div id="stone-fruits">
+            <h1>STONE FRUITS</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="tropical-fruits" class="product-categories">
-            
+        <div id="tropical-fruits">
+            <h1>TROPICAL FRUITS</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="berries" class="product-categories">
-            
+        <div id="berries">
+            <h1>BERRIES</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="melon" class="product-categories">
-            
+        <div id="melon">
+            <h1>MELON</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="nuts" class="product-categories">
-            
+        <div id="nuts">
+            <h1>NUTS</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="grapes" class="product-categories">
-            
+        <div id="grapes">
+            <h1>GRAPES</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="pepper" class="product-categories">
-            
+        <div id="pepper">
+            <h1>PEPPER</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="dates" class="product-categories">
-            
+        <div id="dates">
+            <h1>DATES</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="herbs" class="product-categories">
-            
+        <div id="herbs">
+            <h1>HERBS</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
-        <div id="seeds" class="product-categories">
-            
+        <div id="seeds">
+            <h1>SEEDS</h1>
+            <div class="product-categories">
+
+            </div>
         </div>
     </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
