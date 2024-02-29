@@ -19,8 +19,8 @@
                         <th>Product Name</th>
                         <th>Product Category</th>
                         <th>Sub Category</th>
-                        <th>Low Price</th>
                         <th>High Price</th>
+                        <th>Low Price</th>
                         <th>Action</th>
                     </tr>
                 </thead>
