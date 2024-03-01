@@ -37,22 +37,22 @@
         <div id="fruit-veggies-right">
             <div id="fruit-veggies-right-inner">
                 <div class="veggies-block">
-                    <img src="images/home-svg.jpg" alt="">
+                    <img src="https://i.ibb.co/dmCKGH5/home-svg.jpg" alt="home-svg" border="0">
                     <p class="veggies-block-p">MODERN FARM</p>
                     <p class="veggies-block-p2">We get our farm products from companies with modern technologies.</p>
                 </div>
                 <div class="veggies-block">
-                    <img src="images/fresh-svg.jpg" alt="">
+                <img src="https://i.ibb.co/dk646DM/fresh-svg.jpg" alt="fresh-svg" border="0">
                     <p class="veggies-block-p">FARM FRESH</p>
                     <p class="veggies-block-p2">We deliver our products always fresh & organic so that you could enjoy your meal.</p>
                 </div>
                 <div class="veggies-block">
-                    <img src="images/organic-svg.jpg" alt="">
+                    <img src="https://i.ibb.co/k3WBs1p/organic-svg.jpg" alt="organic-svg" border="0">
                     <p class="veggies-block-p">100% ORGANIC</p>
                     <p class="veggies-block-p2">We adhere to our organic philosophy, which implies avoiding pesticides.</p>
                 </div>
                 <div class="veggies-block">
-                    <img src="images/cost-svg.jpg" alt="">
+                    <img src="https://i.ibb.co/M2hfSm7/cost-svg.jpg" alt="cost-svg" border="0">
                     <p class="veggies-block-p">COST FRIENDLY</p>
                     <p class="veggies-block-p2">Our give the best prices of farm fresh fruits & vegetables to met your taste expectation.</p>
                 </div>
