@@ -1,7 +1,7 @@
 <nav id="navbar">
     <div>
         <div id="logo">
-            <img src="images/fruits-and-veggies-logo.png" alt="fruits&veggies vegetables fruits" width="175px" height="80px">
+            <img src="https://i.ibb.co/HKKYGZy/fruits-and-veggies-logo.png" alt="fruits-and-veggies-logo"width="175px" height="80px">
         </div>
         <div id="menu-bar">
             <div>

@@ -20,7 +20,7 @@
     <section id="about-us-one">
         <div id="about-us-one-left">
             <div>
-                <img src="./images/fruit-veggies-white-logo.png" alt="">
+                <img src="https://i.ibb.co/WgkgSdF/fruit-veggies-white-logo.png" alt="fruit-veggies-white-logo" border="0">
             </div>
             
         </div>

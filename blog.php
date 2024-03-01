@@ -26,7 +26,7 @@
     <section id="blog-news">
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/juice-bottles.png" alt="">
+            <img src="https://i.ibb.co/zNcSMFp/juice-bottles.png" alt="juice-bottles" border="0">
             </div>
             <div id="blog-header">
                 <p>5 drinks you should try before age 30</p>
@@ -44,7 +44,7 @@
         </div>
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/fruit-market.png" alt="">
+                <img src="https://i.ibb.co/9ytsNjb/fruit-market.png" alt="fruit-market" border="0">
             </div>
             <div id="blog-header">
                 <p>Benefits of vegetable smothie </p>
@@ -62,7 +62,7 @@
         </div>
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/juicyy-bottle.jpg" alt="">
+                <img src="https://i.ibb.co/QQ7WqdW/juicyy-bottle.jpg" alt="juicyy-bottle" border="0">
             </div>
             <div id="blog-header">
                 <p>
@@ -84,7 +84,7 @@
         </div>
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/juice-bottles.png" alt="">
+            <img src="https://i.ibb.co/zNcSMFp/juice-bottles.png" alt="juice-bottles" border="0">
             </div>
             <div id="blog-header">
                 <p>5 drinks you should try before age 30</p>
@@ -102,7 +102,7 @@
         </div>
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/fruit-market.png" alt="">
+                <img src="https://i.ibb.co/9ytsNjb/fruit-market.png" alt="fruit-market" border="0">
             </div>
             <div id="blog-header">
                 <p>Benefits of vegetable smothie </p>
@@ -120,7 +120,7 @@
         </div>
         <div id="blog-items">
             <div id="blog-image">
-                <img src="images/juicyy-bottle.jpg" alt="">
+                <img src="https://i.ibb.co/QQ7WqdW/juicyy-bottle.jpg" alt="juicyy-bottle" border="0">
             </div>
             <div id="blog-header">
                 <p>

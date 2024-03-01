@@ -68,7 +68,7 @@ body{
 #main-banner{
     height: 100vh;
     background-image: linear-gradient(to right, #fff, rgba(240,240,240, .8));
-    background-image: url(../images/fruit-splash.png);
+    background-image: url(https://i.ibb.co/ZHT85b6/fruit-splash.png);
     background-repeat: no-repeat;
     background-position: -50% -70%;
 }
@@ -114,7 +114,7 @@ body{
 #fruit-veggies{
     height: 90vh;
     width: 100vw;
-    background-image: url(../images/fruit-pallete.png);
+    background-image: url(https://i.ibb.co/cQxJRkW/fruit-pallete.png);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -174,7 +174,7 @@ body{
 /************************************* START OF FRUIT HANDS *********************************/
 #fruit-hands{
     height: 100vh;
-    background-image: url(../images/fruit-hands.png);
+    background-image: url(https://i.ibb.co/8N4yGmr/fruit-hands.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -234,7 +234,7 @@ body{
 #featured-fruit{
     width: 100vw;
     background-size: cover;
-    background-image: url(../images/featured-image.jpg);
+    background-image: url(https://i.ibb.co/z73WqD9/featured-image.jpg);
 }
 #featured-fruit > div{
     width: 100%;
@@ -393,7 +393,7 @@ body{
 
 /************************************** START OF FRUIT ICE ************************************/
 #fruit-ice{
-    background-image: url(../images/fruit-ice.png);
+    background-image: url(https://i.ibb.co/Vt40sts/fruit-ice.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -424,7 +424,7 @@ body{
 /************************************** START OF FOOTER *************************************/
 #footer{
     height: 50vh;
-    background-image: url(../images/scattered-fruits.png);
+    background-image: url(https://i.ibb.co/DRyQqKj/scattered-fruits.png);
     background-size: cover;
 }
 #footer-div{

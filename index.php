@@ -26,7 +26,7 @@
                 <a href="http://">SHOP NOW</a>                
             </div>
             <div id="main-banner-right">
-                <img src="images/main-fruit-banner.png" alt="fruits basket vegetables veggies" width="750" height="750">
+                <img src="https://i.ibb.co/BrgV1Fn/main-fruit-banner.png" alt="main-fruit-banner" border="0" width="600" height="600">
             </div>
         </div>
     </section>
@@ -103,29 +103,29 @@
             <p>Fruits and vegetables we offer on a regualar basis</p>
             <div class="fruit-list">
                 <div id="fruit-item">
-                    <img src="images/red-apples.jpg" alt="Red Apples apple fruits">
+                <img src="https://i.ibb.co/VWjsBPL/red-apples.jpg" alt="red-apples red apples" border="0">
                     <p>RED APPLES</p>
                 </div>
                 <div id="fruit-item">
-                    <img src="images/red-grapes.jpg" alt="Red Grapes Fruits">
+                <img src="https://i.ibb.co/FbRYX4r/red-grapes.jpg" alt="red grapes fruits" border="0">
                     <p>RED GRAPES</p>
                 </div>
                 <div id="fruit-item">
-                    <img src="images/nuts.jpg" alt="Red Grapes Fruits">
+                <img src="https://i.ibb.co/2yhCG3f/nuts.jpg" alt="nuts walnuts nigeria" border="0">
                     <p>NUTS</p>
                 </div>
             </div>
             <div class="fruit-list second-fruit-list" >
                 <div id="fruit-item">
-                    <img src="images/broccoli.jpg" alt="Red Apples apple fruits">
+                    <img src="https://i.ibb.co/jH2M7Zg/broccoli.jpg" alt="broccoli" border="0">
                     <p>BROCCOLI</p>
                 </div>
                 <div id="fruit-item">
-                    <img src="images/blue-berry.jpg" alt="Red Grapes Fruits">
+                    <img src="https://i.ibb.co/HtXNHdt/blue-berry.jpg" alt="blueberry blue berry" border="0">
                     <p>BLUE BERRIES</p>
                 </div>
                 <div id="fruit-item">
-                    <img src="images/oranges.jpg" alt="Red Grapes Fruits">
+                    <img src="https://i.ibb.co/HD4pbRN/oranges.jpg" alt="oranges" border="0">
                     <p>ORANGES</p>
                 </div>
             </div>
@@ -167,17 +167,17 @@
         </div>
         <div id="fruit-change-right">
             <div id="main-fruit-box">
-                <img src="images/strawberries.jpg" alt="strawberry strawberries">
+                <img src="https://i.ibb.co/Wy7syfF/strawberries.jpg" alt="strawberry strawberries" border="0">
             </div>
             <div id="sub-fruit-boxes">
                 <div id="single-broccoli" class="sub-fruit-boxes-item">
-                    <img src="images/single-broccoli.png" alt="broccoli broccolies">
+                <img src="https://i.ibb.co/k48hpzn/single-broccoli.png" alt="green broccoli" border="0">
                 </div>
                 <div id="single-strawberry" class="sub-fruit-boxes-item bordered">
-                    <img src="images/strawberries.jpg" alt="strawberry strawberries">
+                    <img src="https://i.ibb.co/Wy7syfF/strawberries.jpg" alt="strawberry strawberries" border="0">
                 </div>
                 <div id="single-cashew" class="sub-fruit-boxes-item">
-                    <img src="images/cashew.jpg" alt="Cashew nuts">
+                    <img src="https://i.ibb.co/9sVN2WS/cashew.jpg" alt="cashew nuts" border="0">
                 </div>
             </div>
         </div>
@@ -188,12 +188,12 @@
                 <a href="http://">SHOP NOW</a>
             </div>
             <div>
-                <img src="./images/fruit-veggies-white-logo.png" alt="">
+                <img src="https://i.ibb.co/WgkgSdF/fruit-veggies-white-logo.png" alt="fruit-veggies-white-logo" border="0">
             </div>
         </section>
         <section id="fruit-bag" >
             <div id="fruit-bag-image" style="z-index: 1">
-                <img src="images/fruit-bag.png" alt="">
+                <img src="https://i.ibb.co/71Kw5z5/fruit-bag-1.png" alt="fruit-bag-1" border="0">
             </div>
             <div id="fruit-bag-right">
                 <p id="fruit-bag-first-writ"><strong> BEST FRUITS IN THE COUNTRY</strong></p>
