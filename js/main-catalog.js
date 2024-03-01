@@ -46,13 +46,12 @@ $(document).ready(function(){
                             <h2>${myProductName}</h2>
                             <p>${subCategory} - ${category}</p>
                         </div>
-                        <div class = "product-price">
+                        <!--s<div class = "product-price">
                             <del>&#x20A6;${lowPrice}</del>
                             <strong>&#x20A6;${highPrice}</strong>
-                        </div>
+                        </div>-->
                         <div class = "product-shop-now">
-                            <span>1 Kg</span>
-                            <a href="http://">SHOP NOW</a>
+                            <a href="http://"><i class="fa-brands fa-whatsapp"></i>BUY NOW</a>
                         </div>
                     </div>
                 `;
