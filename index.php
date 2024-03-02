@@ -200,7 +200,7 @@
                 <h2 id="fruit-bag-discount">DISCOUNT SALE</h2>
                 <h2>TODAY - 20%</h2>
                 <p id="fruit-bag-offers"><strong>LIST OF OUR CURRENT DISCOUNT OFFERS</strong></p>
-                <a href="http://"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>                
+                <a href="http://">SEE OUR CATALOG</a>                
             </div>
         </section>
     </section>
