@@ -77,3 +77,45 @@
  #blog-body p{
     line-height: 30px;
  }
+
+
+ @media screen and (max-width: 578px) {
+    
+ }
+ @media screen and (max-width: 790px) {
+   #blog-background{
+      height: 60vh;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+   }
+   #blur-blog{
+      background-color: rgb(77,8,37);
+      box-shadow: 0px 0px 100px 100px rgb(77,8,37);
+      width: 100%;
+      padding: 1.5rem;
+   }
+   #blur-blog p{
+      font-size: 1.25rem;
+      font-family: "Josefin Sans", sans-serif;
+   }
+   #blur-blog h1{
+      font-size: 8rem;
+      line-height: 7rem;
+   }
+   #blog-news{
+      display: block;
+      padding-block: 6.5rem;
+   }
+   #blog-items{
+      width: 90%;
+      margin: auto;
+      margin-block-start: 1.5rem;
+   }
+ }
+ @media screen and (max-width: 1025px) {
+     
+ }
+ @media screen and (max-width: 1201px) {
+     
+ }

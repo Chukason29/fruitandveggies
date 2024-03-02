@@ -7,13 +7,16 @@
                 </div>
                 <div id="footer-div-right">
                     <div id="footer-socials">
-                    <div id="contacts">
-                        <span><i class="fa-solid fa-location-dot"></i>plot 44, maitama road, Maitama</span>
-                        <span><i class="fa-solid fa-phone"></i> +234(0)7010214514</span>
-                    </div>
-                        <a href="http://"><i class="fa-brands fa-tiktok"></i></a>
-                        <a href="http://"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="http://"><i class="fa-brands fa-facebook-f"></i></a>
+                        <div id="contacts">
+                            <span><i class="fa-solid fa-location-dot"></i>plot 44, maitama road, Maitama</span>
+                            <span><i class="fa-solid fa-phone"></i> +234(0)7010214514</span>
+                        </div>
+                        <div>
+                            <a href="http://"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="http://"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="http://"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
                     </div>
                     <form action="">
                         <div>
