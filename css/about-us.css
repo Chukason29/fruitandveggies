@@ -12,7 +12,7 @@
 #about-us-one, #about-us-two{
     display: flex;
 }
-#about-us-one-left{
+#about-us-one-left, #about-us-two-right{
     width:50%;
     height: 85vh;
     background-image: url(https://i.ibb.co/XDq03gF/combined-fruit-image.jpg);
@@ -29,7 +29,7 @@
 #about-us-one-left img{
     width: 70%;
     object-fit: cover;
-    box-shadow: 0px 0px 3px rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 3px rgba(214, 184, 184, 0.5);
 }
 #about-us-one-right{
     width:50%;
@@ -50,15 +50,12 @@
     line-height: 30px;
 }
 
-#about-us-two-right{
-    width:50%;
-    height: 85vh;
-    background-image: url(https://i.ibb.co/XDq03gF/combined-fruit-image.jpg);
-    background-size: cover;
-}
 #about-us-two-left{
     width:50%;
     height: 85vh;
+    padding-inline: 7.5rem;
+    display: flex;
+    align-items: center;
     background-image: linear-gradient(to right, rgb(250,250,250), rgb(220,220,220));
 }
 #about-us-one a, #about-us-two a{
@@ -72,11 +69,6 @@
     border-radius: 8px;
     box-shadow: 5px 8.5px 10px rgba(77,8,37, .5);
 }
-#about-us-two-left{
-    padding-inline: 7.5rem;
-    display: flex;
-    align-items: center;
-}
 #about-us-two-left h2{
     color: rgb(254,147,22);
     margin-bottom: 1.25rem;
@@ -84,4 +76,32 @@
 }
 #about-us-two-left > div > div{
     margin-bottom: 3rem;
+}
+@media screen and (max-width: 578px) {
+    
+}
+@media screen and (max-width: 790px) {
+    #about-us-one, #about-us-two{
+        display: block;
+        
+    }
+    #about-us-one-left, #about-us-two-left{
+        width:100%;
+        height: auto;
+    }
+    #about-us-one-right, #about-us-two-left{
+        width:100%;
+        padding-inline: 1rem;
+        padding: 2rem;
+        height: auto;
+    }
+    #about-us-two > div {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1025px) {
+    
+}
+@media screen and (max-width: 1201px) {
+    
 }

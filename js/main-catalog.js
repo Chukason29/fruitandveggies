@@ -51,7 +51,7 @@ $(document).ready(function(){
                             <strong>&#x20A6;${highPrice}</strong>
                         </div>-->
                         <div class = "product-shop-now">
-                            <a href="http://"><i class="fa-brands fa-whatsapp"></i>BUY NOW</a>
+                            <a href="https://wa.link/psrubj"><i class="fa-brands fa-whatsapp"></i>BUY NOW</a>
                         </div>
                     </div>
                 `;

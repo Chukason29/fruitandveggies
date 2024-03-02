@@ -156,3 +156,28 @@ table tr, table td, table th{
 }
 
 /************************************* **** END OF MANAGE PRODUCT CSS ************************************************/
+
+@media screen and (max-width: 578px) {
+    
+}
+@media screen and (max-width: 790px) {
+    #product-display{
+        padding-inline: 1.5rem;
+    }
+    .product-categories{
+        display: block;
+    }
+    .product-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #product-display h1{
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 1025px) {
+    
+}
+@media screen and (max-width: 1201px) {
+    
+}
