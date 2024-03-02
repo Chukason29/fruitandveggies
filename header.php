@@ -1,19 +1,22 @@
 <nav id="navbar">
     <div>
         <div id="logo">
-            <img src="https://i.ibb.co/HKKYGZy/fruits-and-veggies-logo.png" alt="fruits-and-veggies-logo"width="175px" height="80px">
+            <img src="https://i.ibb.co/HKKYGZy/fruits-and-veggies-logo.png" alt="fruits-and-veggies-logo">
         </div>
         <div id="menu-bar">
-            <div>
-                <a href="index">HOME</a>
-                <a href="about-us.php">ABOUT US</a>
-                <a href="blog">BLOG</a>
-                <a href="product-catalog">CATALOG</a>
-                <a href="">CONTACTS</a> 
-            </div>
-            <div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
+            <ul>
+                <li><a href="index">HOME</a></li>
+                <li><a href="about-us.php">ABOUT US</a></li>
+                <li><a href="blog">BLOG</a></li>
+                <li><a href="product-catalog">CATALOG</a></li>
+                <li><a href="">CONTACTS</a> </li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>
+        </div> 
+        
+    </div>
+    <div id="mobile-icon">
+        <i class="fa-solid fa-bars" id="fa-bars"></i>
+        <i class="fa-solid fa-x" id="fa-x"></i>
     </div>
 </nav>

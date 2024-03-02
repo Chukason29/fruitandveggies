@@ -23,7 +23,7 @@
                 <h2 id="header-writ">EXOTIC AND</h2>
                 <h2>FRESH PRODUCE</h2>
                 <p id="healthy"><strong>AT FRUITS AND VEGGIES HOME</strong></p>
-                <a href="http://">SHOP NOW</a>                
+                <a href="http://"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>                
             </div>
             <div id="main-banner-right">
                 <img src="https://i.ibb.co/BrgV1Fn/main-fruit-banner.png" alt="main-fruit-banner" border="0" width="600" height="600">
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div id="fruit-hands-right">
-            <a href="http://">SHOP NOW</a>
+            <a href="http://"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>
         </div>
     </section>
     <section id="featured-fruit">
@@ -185,7 +185,7 @@
     <section id="fruit-ice">
         <section id="fruit-ice-logo">        
             <div>
-                <a href="http://">SHOP NOW</a>
+                <a href="http://"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>
             </div>
             <div>
                 <img src="https://i.ibb.co/WgkgSdF/fruit-veggies-white-logo.png" alt="fruit-veggies-white-logo" border="0">
@@ -200,7 +200,7 @@
                 <h2 id="fruit-bag-discount">DISCOUNT SALE</h2>
                 <h2>TODAY - 20%</h2>
                 <p id="fruit-bag-offers"><strong>LIST OF OUR CURRENT DISCOUNT OFFERS</strong></p>
-                <a href="http://">SHOP NOW</a>                
+                <a href="http://"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>                
             </div>
         </section>
     </section>

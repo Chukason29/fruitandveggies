@@ -33,6 +33,12 @@
     padding: 4.5rem;
     background-image: linear-gradient(to right, rgba(180, 180, 180, .5), rgba(180, 180, 180, 1));
 }
+#product-display h1{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+}
 .product-categories{
     display: flex;
     flex-wrap: wrap;
