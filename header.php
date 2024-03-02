@@ -13,7 +13,7 @@
                 <li><i class="fa-solid fa-magnifying-glass"></i></li>
             </ul>
         </div> 
-        
+
     </div>
     <div id="mobile-icon">
         <i class="fa-solid fa-bars" id="fa-bars"></i>

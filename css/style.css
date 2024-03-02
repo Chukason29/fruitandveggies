@@ -24,6 +24,26 @@ body{
 #fa-bars, #fa-x, #mobile-icon{
     display: none;
 }
+#shownMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;;
+    height: 100vh;
+    background-color: rgba(3,3,3, .96);
+
+}
+#shownMenu li{
+    margin: 1.5rem;
+}
+#shownMenu li a{
+    color: #ffffff;
+}
   /******************************** MENU BAR  ***************************************/
 #navbar{
     width: 100%;
@@ -47,7 +67,6 @@ body{
 }
 #navbar ul{
     list-style: none;
-    display: flex;
     display: flex;
     gap: 4.5rem
 }
