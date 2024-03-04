@@ -29,6 +29,16 @@
     justify-content: center;
     align-items: center;
 }
+#start-display-manage{
+    height: 100vh;
+    background-color: rgba(40, 40, 40, .8);
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 #product-display{
     padding: 4.5rem;
     background-image: linear-gradient(to right, rgba(180, 180, 180, .5), rgba(180, 180, 180, 1));
@@ -76,18 +86,6 @@
     color: rgb(150, 150, 150);
     margin-inline-end: 1.5rem;
 }
-/*.product-shop-now{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}*/
-/*.product-shop-now span{
-    border: 1.2px solid rgb(77,8,37);
-    color: rgb(77,8,37);
-    border-radius: 40px;
-    padding: 10px 30px;
-    display: inline-block;
-}*/
 .product-shop-now a{
     background-color: rgb(77,8,37);
     font-size: .7rem;

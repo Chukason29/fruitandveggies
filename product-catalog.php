@@ -18,7 +18,7 @@
 </head>
 <body>
     <section id="start-display">
-    <img src="https://i.ibb.co/nbg91Y9/product-loader.gif" alt="product-loader" id="product-loader" border="0">
+        <img src="https://i.ibb.co/nbg91Y9/product-loader.gif" alt="product-loader" id="product-loader" border="0">
     </section>
 <?php include "header.php" ?>
     <section id="product-display">      

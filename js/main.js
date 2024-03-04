@@ -38,18 +38,3 @@ const fruitChange = (e) =>{
     e.classList.add("bordered");
     mainFruit.src = "https://i.ibb.co/k48hpzn/single-broccoli.png"
 }
-/*singleBroccoli.addEventListener("click", () => {
-    removeBorder();
-    singleBroccoli.classList.add("bordered");
-    mainFruit.src = "https://i.ibb.co/k48hpzn/single-broccoli.png"
-})
-singleStrawberry.addEventListener("click", () => {
-    removeBorder();
-    singleStrawberry.classList.add("bordered");
-    mainFruit.src = "https://i.ibb.co/Wy7syfF/strawberries.jpg"
-})
-singleCashew.addEventListener("click", () => {
-    removeBorder();
-    singleCashew.classList.add("bordered");
-    mainFruit.src = "https://i.ibb.co/9sVN2WS/cashew.jpg"
-})*/

@@ -30,3 +30,20 @@ $(document).ready(function(){
     })   
 })
 
+const edit = (e) => {
+    $(document).ready(function(){
+        const productId = e.parentNode.id;
+        const formData = {}
+        formData.productID = productId;
+        $.ajax({
+            url: "get_product.php",
+            method: "post",
+            data: formData,
+            beforeSend: function(){
+                $('#start-display-manage').show();
+            }
+        }).done(function(result){
+            $('#start-display-manage').hide();
+        })
+    })
+}

@@ -1,5 +1,8 @@
 <?php include_once "./catalog-header.php"?>
 
+<section id="start-display-manage">
+        <img src="https://i.ibb.co/nbg91Y9/product-loader.gif" alt="product-loader" id="product-loader" border="0">
+</section>
 <section id="manage-product">
 <?php include_once "./menu.php"?>
     <div id="add-product-form-container">
@@ -34,12 +37,11 @@
                             <td><?php echo $row['sub_category']?></td>
                             <td><?php echo $row['low_price']?></td>
                             <td><?php echo $row['high_price']?></td>
-                            <td>
+                            <td id="<?php echo $row['productID']?>">
                                 <button><i class="fa-regular fa-eye"></i></button>
-                                <button><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button onclick= "edit(this)"><i class="fa-regular fa-pen-to-square"></i></button>
                                 <button><i class="fa-regular fa-trash-can"></i></button>
-                            </td>
-                            
+                            </td> 
                         </tr>
                         <?php $sn++; ?>
                     <?php endwhile?>
