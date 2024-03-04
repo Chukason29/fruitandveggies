@@ -18,10 +18,12 @@ const showMobileMenu = () => {
 const hideMobileMenu = () => {
     menuBar.id = "menu-bar";
     menuCloseIcon.style.display = "none";
-
 }
 menuIcon.addEventListener("click", () => {
     showMobileMenu();
+})
+menuCloseIcon.addEventListener("click", () => {
+    hideMobileMenu();
 })
 menuCloseIcon.addEventListener("click", () => {
 

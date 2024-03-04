@@ -26,7 +26,7 @@
                 <a href="https://wa.link/psrubj"><i class="fa-brands fa-whatsapp"></i> SHOP NOW</a>                
             </div>
             <div id="main-banner-right">
-                <img src="https://i.ibb.co/BrgV1Fn/main-fruit-banner.png" alt="main-fruit-banner" border="0" width="600" height="600">
+            <img src="https://i.ibb.co/SPH1qmb/main-banner-removebg-preview.png" alt="main-banner-removebg-preview" border="0">
             </div>
         </div>
     </section>
@@ -44,7 +44,7 @@
                 <div class="veggies-block">
                 <img src="https://i.ibb.co/dk646DM/fresh-svg.jpg" alt="fresh-svg" border="0">
                     <p class="veggies-block-p">FARM FRESH</p>
-                    <p class="veggies-block-p2">We deliver our products always fresh & organic so that you could enjoy your meal.</p>
+                    <p class="veggies-block-p2">We deliver our products always fresh so that you could enjoy your meal.</p>
                 </div>
                 <div class="veggies-block">
                     <img src="https://i.ibb.co/k3WBs1p/organic-svg.jpg" alt="organic-svg" border="0">
