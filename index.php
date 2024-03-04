@@ -171,13 +171,13 @@
                 <img src="https://i.ibb.co/Wy7syfF/strawberries.jpg" alt="strawberry strawberries" border="0">
             </div>
             <div id="sub-fruit-boxes">
-                <div id="single-broccoli" class="sub-fruit-boxes-item">
-                <img src="https://i.ibb.co/k48hpzn/single-broccoli.png" alt="green broccoli" border="0">
+                <div id="single-broccoli" class="sub-fruit-boxes-item" onclick= "fruitChange(this)">
+                    <img src="https://i.ibb.co/k48hpzn/single-broccoli.png" alt="green broccoli" border="0">
                 </div>
-                <div id="single-strawberry" class="sub-fruit-boxes-item bordered">
+                <div id="single-strawberry" class="sub-fruit-boxes-item bordered" onclick= "fruitChange(this)">
                     <img src="https://i.ibb.co/Wy7syfF/strawberries.jpg" alt="strawberry strawberries" border="0">
                 </div>
-                <div id="single-cashew" class="sub-fruit-boxes-item">
+                <div id="single-cashew" class="sub-fruit-boxes-item" onclick= "fruitChange(this)">
                     <img src="https://i.ibb.co/9sVN2WS/cashew.jpg" alt="cashew nuts" border="0">
                 </div>
             </div>

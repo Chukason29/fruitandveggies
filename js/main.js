@@ -33,7 +33,12 @@ const removeBorder = () => {
         item.classList.remove("bordered");
     })
 }
-singleBroccoli.addEventListener("click", () => {
+const fruitChange = (e) =>{
+    removeBorder();
+    e.classList.add("bordered");
+    mainFruit.src = "https://i.ibb.co/k48hpzn/single-broccoli.png"
+}
+/*singleBroccoli.addEventListener("click", () => {
     removeBorder();
     singleBroccoli.classList.add("bordered");
     mainFruit.src = "https://i.ibb.co/k48hpzn/single-broccoli.png"
@@ -47,4 +52,4 @@ singleCashew.addEventListener("click", () => {
     removeBorder();
     singleCashew.classList.add("bordered");
     mainFruit.src = "https://i.ibb.co/9sVN2WS/cashew.jpg"
-})
+})*/
