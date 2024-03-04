@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="fruits Nigeria ecommerce shop online store ecommerce vegetables veggies store ">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/Bry3Ykh/fruit-veggies-favicon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +18,7 @@
 </head>
 <body>
     <section id="start-display">
-            <img src="./images/product-loader.gif" alt="">
+    <img src="https://i.ibb.co/nbg91Y9/product-loader.gif" alt="product-loader" id="product-loader" border="0">
     </section>
 <?php include "header.php" ?>
     <section id="product-display">      

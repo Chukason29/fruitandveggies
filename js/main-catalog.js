@@ -21,7 +21,7 @@ $(document).ready(function(){
         processData: false,
         data : "",
         beforeSend: function(){
-            // $('#loader').show();
+            $('#product-loader').show();
         }
     }).done(function(result){       
         $('#start-display').hide();
